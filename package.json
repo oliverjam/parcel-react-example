@@ -4,7 +4,7 @@
   "description": "A demo using Parcel to bundle a React app",
   "main": "index.js",
   "scripts": {
-    "dev": "parcel watch index.html"
+    "dev": "parcel index.html"
   },
   "keywords": [],
   "author": "",
