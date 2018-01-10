@@ -1,4 +1,13 @@
+import React from 'react';
+import ReactDOM from 'react-dom';
 import root from './getRoot';
 import icon from './icon.svg';
 
-root.innerHTML = `<img src="${icon}" alt="WebPack icon" width="64px" />`;
+const App = props => (
+  <h1>
+    Hello world<img src={icon} width="64px" />
+  </h1>
+);
+
+ReactDOM.render(<App />, root);
+
